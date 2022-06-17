@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Ubuntu, sans-serif;
+    width:  100vw;
+    height: 100vh;
+    background-color: #161717;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 400px;
+    padding: 15px;
+    color: #fff;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin:  20px 0;
+}
+.google {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 94, 255);
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google:hover {
+    opacity: .75;
+}
+.google span {
+    margin-right: 30px;
+}
+.google img {
+    width: 12%;
+}
+.twitter {
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.twitter:hover {
+    background-color: rgb(214, 214, 214);
+}
+.twitter img {
+    width: 25%;
+}
+
+/*  Line */
+
+.line {
+    margin-bottom: 20px;
+}
+.line span {
+    color: gray;
+}
+.line hr{
+    display: inline-block;
+    width: 46%;
+}
+
+/*  Forms */
+
+.form input {
+    background-color: #212121;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0 20px 0;
+    transition: background-color .3s, box-shadow .3s ;
+}
+.form input:hover {
+    background-color: #454045;
+    border: 1px solid rgb(241, 217, 217);
+    box-shadow: 0 0 5px rgb(225, 194, 194);
+}
+.form input:focus {
+    background-color: #fff;
+    border: 1px solid rgb(241, 217, 217);
+    box-shadow: 0 0 5px rgb(225, 194, 194);
+}
+.form label {
+    font-weight: bolder;
+}
+.input-btn {
+    display: flex;
+    gap: 15px;
+}
+.input-btn input {
+    width: 100%;
+    
+}
+.input label{
+    display: flex;
+    flex-direction: column;
+}
+.chekbox {
+    display: flex;
+    gap: 13px;
+    color: gray;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.chekbox input {
+    width: 25px;
+    height: 20px;
+}
+.submit {
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgb(232, 64, 159);
+    color: #fff;
+    font-weight: bold;
+}
+.submit:hover {
+    opacity: .75;
+}
